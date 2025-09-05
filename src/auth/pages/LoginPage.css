@@ -1,14 +1,43 @@
 .login-body {
-  min-height: 100vh; 
-  justify-content: center; 
-  align-items: center;     
-  background: linear-gradient(135deg, #000000 0%, #121212 50%, #2a2a2a 100%);
-  font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000000 0%, #121212 50%, #2a2a2a 100%);
+    font-family: "Poppins", sans-serif;
 }
 
- 
+
+/* Laptops medianos (1366px ancho) */
+@media (max-width: 1440px) {
+    .login-container {
+        height: auto;
+        max-width: 700px;
+        padding: 1rem;
+    }
+
+    .co-agenda-logo {
+        max-width: 350px;
+    }
+}
+
+/* Portátiles pequeños (1024px ancho) */
+@media (max-width: 1280px) {
+    .login-container {
+        max-width: 650px;
+        padding: 1.5rem;
+    }
+
+    .co-agenda-logo {
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
 .app-body {
-  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 50%, #e5e7eb 100%);
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 50%, #e5e7eb 100%);
 }
 
 .co-agenda-logo {
