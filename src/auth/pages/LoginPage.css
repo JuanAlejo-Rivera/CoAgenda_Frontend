@@ -1,17 +1,19 @@
 .login-body {
   min-height: 100vh; 
   justify-content: center; 
+  align-items: center;     
   background: linear-gradient(135deg, #000000 0%, #121212 50%, #2a2a2a 100%);
   font-family: "Poppins", sans-serif;
 }
+
  
 .app-body {
   background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 50%, #e5e7eb 100%);
 }
 
 .co-agenda-logo {
-    width: 700px;
-    height: auto;
+    width: 600px;
+    /* height: auto; */
     display: block;
     margin: 20px auto;
 }
@@ -22,10 +24,6 @@
     }
 }
 
-
-.login-container {
-    margin-top: 15%;
-}
 
 .login-form-1 {
     border-radius: 8px;
