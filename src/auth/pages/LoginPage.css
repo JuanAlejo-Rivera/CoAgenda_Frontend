@@ -1,28 +1,25 @@
 .login-body {
-    background: linear-gradient(135deg, #000000 0%, #121212 50%, #2a2a2a 100%);
-    font-family: "Poppins", sans-serif;
+  min-height: 100vh; 
+  justify-content: center; 
+  background: linear-gradient(135deg, #000000 0%, #121212 50%, #2a2a2a 100%);
+  font-family: "Poppins", sans-serif;
 }
 
-/* Estilo solo para la app interna */
 .app-body {
   background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 50%, #e5e7eb 100%);
-    /* gris clarito (Tailwind gray-100) */
 }
 
 .co-agenda-logo {
     width: 700px;
     height: auto;
-    /* mantiene proporción */
     display: block;
     margin: 20px auto;
-    /* espacio arriba/abajo */
 }
 
 
 @media (max-width: 768px) {
     .co-agenda-logo {
         max-width: 250px;
-        /* más pequeño en tablets y móviles */
     }
 }
 
@@ -34,7 +31,6 @@
 .login-form-1 {
     border-radius: 8px;
     background: #1e1e1e;
-    /* gris oscuro, más claro que el fondo */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     padding: 5%;
 }
@@ -72,29 +68,23 @@
 .login-form-1 .btnSubmit {
     color: #fff;
     background: linear-gradient(135deg, #7c3aed, #2563eb);
-    /* morado → azul */
 }
 
 .login-form-1 .btnSubmit:hover {
     background: linear-gradient(135deg, #2563eb, #7c3aed);
-    /* invertido en hover */
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
-    /* glow suave */
 }
 
 .login-form-2 .btnSubmit {
     background-color: #1e1e1e;
-    /* negro puro */
     color: #fff;
 }
 
 .login-form-2 .btnSubmit:hover {
     background-color: #111827;
-    /* gris muy oscuro (Tailwind gray-900) */
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    /* sombra glow sutil */
 }
 
 .login-form-2 .ForgetPwd {
