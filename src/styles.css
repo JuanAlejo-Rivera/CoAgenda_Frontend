@@ -60,3 +60,9 @@
   width: 70px;
   height: 70px;
 }
+
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container input {
+  min-width: 300px;  /* o lo que necesite */
+}
