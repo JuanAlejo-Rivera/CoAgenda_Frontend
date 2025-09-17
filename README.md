@@ -36,5 +36,5 @@ Cada usuario puede agregar eventos con **título, hora, fecha y notas**, y todos
 
 ## 📸 Vista previa
 
-![login](image.png)
-![calendar](image-1.png)
+![login](./public/image.png)
+![calendar](./public/image-1.png)
