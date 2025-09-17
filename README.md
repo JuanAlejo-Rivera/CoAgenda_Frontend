@@ -3,7 +3,7 @@
 CO-Agenda es una aplicación web que permite a múltiples usuarios **registrar y gestionar eventos** en un calendario compartido.  
 Cada usuario puede agregar eventos con **título, hora, fecha y notas**, y todos los datos se gestionan mediante **MongoDB**.
 
-🔗 **Demo en vivo**: [https://co-agenda-frontend.vercel.app/auth/login](https://co-agenda-frontend.vercel.app/auth/login)  
+🔗 **Demo en vivo**: [https://co-agenda-frontend.vercel.app/](https://co-agenda-frontend.vercel.app/)  
 🌐 **Portafolio**: [https://portfolio-drab-six-76.vercel.app/](https://portfolio-drab-six-76.vercel.app/)
 
 ---
